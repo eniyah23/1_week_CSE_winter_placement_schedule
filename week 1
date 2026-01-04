@@ -1,0 +1,79 @@
+# Week 1 - Python Basics
+def display_details():
+    name = input("Enter your name: ")
+    age = input("Enter your age: ")
+
+    print("Name:", name)
+    print("Age:", age)
+
+a = 10
+b = 20
+
+display_details()
+print("Sum:", a + b)
+
+
+Week1_Loops_Functions.py
+# Loops and Functions
+
+# For loop
+print("For Loop Example:")
+for i in range(1, 6):
+    print(i)
+
+# While loop
+print("\nWhile Loop Example:")
+count = 1
+while count <= 5:
+    print(count)
+    count += 1
+
+# Function
+def add_numbers(a, b):
+    return a + b
+
+result = add_numbers(5, 10)
+print("\nFunction Output:", result)
+
+Week1_Loops_Functions.py
+# Loops and Functions
+
+# For loop
+print("For Loop Example:")
+for i in range(1, 6):
+    print(i)
+
+# While loop
+print("\nWhile Loop Example:")
+count = 1
+while count <= 5:
+    print(count)
+    count += 1
+
+# Function
+def add_numbers(a, b):
+    return a + b
+
+result = add_numbers(5, 10)
+print("\nFunction Output:", result)
+
+Week1_SQL_Practice.sql
+-- Create table
+CREATE TABLE students (
+    id INT,
+    name VARCHAR(50),
+    age INT
+);
+
+-- Insert values
+INSERT INTO students VALUES (1, 'Anu', 20);
+INSERT INTO students VALUES (2, 'Rahul', 21);
+INSERT INTO students VALUES (3, 'Priya', 22);
+
+-- Select all
+SELECT * FROM students;
+
+-- Condition
+SELECT * FROM students WHERE age > 20;
+
+
